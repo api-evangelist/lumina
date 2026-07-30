@@ -1,7 +1,28 @@
 aid: lumina
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumina.png
 name: Lumina
-description: Lumina is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lumina (Lumina Innovations) is a San Francisco-based startup building
+  all-electric, autonomous heavy construction equipment. Founded by Ahmed
+  Shubber and Federico Di Palma, the company develops both the hardware and the
+  self-driving software in-house, taking a Tesla/Waymo-style approach to the
+  excavation and earth-moving industry. Its flagship Moonlander ML6 is a 32-ton
+  fully autonomous electric bulldozer with roughly 750 horsepower of peak output
+  and a 414 kWh battery pack. The broader product lineup spans Roadrunner,
+  Moonlander, Bladerunner, and a Powerpack energy system. Lumina does not
+  currently publish a public developer API, SDK, or developer portal; this
+  profile tracks the company as a portfolio lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/lumina/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- Autonomous Vehicles
+- Robotics
+- Electric Vehicles
+- Heavy Equipment
+- Artificial Intelligence
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lumina-domain-security.yml
+- type: Website
+  url: https://luminatech.co/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
